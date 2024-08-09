@@ -1,0 +1,31 @@
+stk.v.12.0
+WrittenBy    STK_v12.8.0
+
+BEGIN Constellation
+
+    Name		 POLMEO_Const
+    BEGIN Definition
+        Object		 Satellite/POLMEO11
+        Object		 Satellite/POLMEO12
+        Object		 Satellite/POLMEO13
+        Object		 Satellite/POLMEO14
+        Type		 Constellation
+        FromOperator		 Or
+        FromOrder		 1
+        ToOperator		 Or
+        ToOrder		 1
+        UseRoutingRulesFile		 No
+
+    END Definition
+
+    BEGIN Extensions
+
+        BEGIN ADFFileData
+        END ADFFileData
+
+        BEGIN Desc
+        END Desc
+
+    END Extensions
+
+END Constellation

@@ -1,0 +1,55 @@
+stk.v.12.0
+WrittenBy    STK_v12.8.0
+
+BEGIN Constellation
+
+    Name		 POLLEO_Const
+    BEGIN Definition
+        Object		 Satellite/POLLEO11
+        Object		 Satellite/POLLEO12
+        Object		 Satellite/POLLEO13
+        Object		 Satellite/POLLEO14
+        Object		 Satellite/POLLEO21
+        Object		 Satellite/POLLEO22
+        Object		 Satellite/POLLEO23
+        Object		 Satellite/POLLEO24
+        Object		 Satellite/POLLEO31
+        Object		 Satellite/POLLEO32
+        Object		 Satellite/POLLEO33
+        Object		 Satellite/POLLEO34
+        Object		 Satellite/POLLEO41
+        Object		 Satellite/POLLEO42
+        Object		 Satellite/POLLEO43
+        Object		 Satellite/POLLEO44
+        Object		 Satellite/POLLEO51
+        Object		 Satellite/POLLEO52
+        Object		 Satellite/POLLEO53
+        Object		 Satellite/POLLEO54
+        Object		 Satellite/POLLEO61
+        Object		 Satellite/POLLEO62
+        Object		 Satellite/POLLEO63
+        Object		 Satellite/POLLEO64
+        Object		 Satellite/POLLEO71
+        Object		 Satellite/POLLEO72
+        Object		 Satellite/POLLEO73
+        Object		 Satellite/POLLEO74
+        Type		 Constellation
+        FromOperator		 Or
+        FromOrder		 1
+        ToOperator		 Or
+        ToOrder		 1
+        UseRoutingRulesFile		 No
+
+    END Definition
+
+    BEGIN Extensions
+
+        BEGIN ADFFileData
+        END ADFFileData
+
+        BEGIN Desc
+        END Desc
+
+    END Extensions
+
+END Constellation
